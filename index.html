@@ -11,15 +11,13 @@
 <h2>Doctype</h2>
 	<h3>description</h3>
 	<p>This tag is used for specifying which version of HTML the document is using.  It is referred to as the document type declaration (DTD).  </p>
-	<h3>&nbsp;</h3>
-	<p><!doctype html></p>
 	
 <h2>html</h2>
 	<h3>description</h3>
 	<p>The html tag is the container for all other HTML elements.	</p>
 	<h3>example of code</h3>
-	<p>&lt;!doctype html&gt;</p>
-	
+	<p>&lt;html&gt;</p>
+		
 <h2>head</h2>
 	<h3>description</h3>
 	<p>The head element is a container for metadata</p>
@@ -50,19 +48,21 @@
 <h2>span</h2>
 	<h3>description</h3>
 	<p>This is an inline container which can be used for styling purposes.</p>
-	<h3>example of code</h3>
-	<p> &lt;p&gt;This is an &lt;span&gt;example&lt;/span&gt;of the use of span within a paragraph&lt;/p&gt;<br>
-	</p>
+<h3>example of code</h3>
+	<p> &lt;p&gt;This is an &lt;span style=&quot;color:red&quot;&gt;example&lt;/span&gt;of the use of span within a paragraph&lt;/p&gt;<br>
+</p>
 	<h3>working example</h3>
-	<p>This is an <span>example</span>of the use of span within a paragraph</p>
+	<p>This is an <span style="color:red">example</span>of the use of span within a paragraph</p>
 	
 <h2>div</h2>
 	<h3>description</h3>
 	<p>The div tag defines a division or a section in an HTML document.</p>
 	<h3>example of code</h3>
-	<p>&lt;div&gt;This is an example of a div&lt;/div&gt;</p>
+	
 	<h3>working example</h3>
-	<div>This is an example of a div</div>
+	<div style="background-color: #C52D30">This is an example of a
+	div 
+	</div>
 
 <h2>heading elements - h1 to h6</h2>
 	<h3>description</h3>
@@ -159,7 +159,7 @@
 	<ul>
 		<li>item xy</li>
 		<li>item yz</li>
-		</ul>
+	  </ul>
 	  </li>
 		<li>Third item</li>
 	</ol>
@@ -168,7 +168,7 @@
 	<h3>description</h3>
 	The img tag is used to bring an image into a web page
 	<h3>example of code</h3>
-	<p>&lt;img src=&quot;images/Hard working.png&quot; width=&quot;300&quot; height=&quot;250&quot; alt=&quot;&quot;/&gt; </p>
+	<p>&lt;img src=&quot;images/Hard working.png&quot; width=&quot;300&quot; height=&quot;250&quot; alt=&quot;Female Worker&quot;/&gt; </p>
 	<h3>working example</h3>
 	<img src="images/Hard working.png" width="300" height="250" alt=""/>
 	
@@ -176,10 +176,14 @@
 <h3>description</h3>
 	If an image cannot be displayed the alt attribute specifies an alternate text.
 	<h3>example of code</h3>
-	<p> &lt;alt&gt;Female working hard&lt;/alt&gt;<br>
-	</p>
-	<h3>working example</h3>
-	<alt>Female working hard</alt>
+	<p>&lt;img src=&quot;images/Hard orking.png&quot; width=&quot;300&quot; height=&quot;250&quot; alt=&quot;Female worker&quot;/&gt; </p>
+    <h3>working example</h3>
+	<img src="images/Har working.png" width="300" height="250" alt="Female worker"/>
+	
+	<h3>&nbsp;</h3>
+	<p>&nbsp;</p>
+
+	
 
 <h2>links</h2>
 <h3>description</h3>
@@ -225,27 +229,36 @@
 	<h3>description</h3>
 	The form tag is used to create an HTML form that allows users to input data.
 	<h3>example of code</h3>
+	<p>&lt;h2&gt;forms&lt;/h2&gt;<br>
+&lt;h3&gt;description&lt;/h3&gt;<br>
+The form tag is used to create an HTML form that allows users to input data.<br>
+&lt;h3&gt;example of code&lt;/h3&gt;<br>
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;<br>
+<br>
+&lt;h3&gt;working example&lt;/h3&gt;<br>
+&lt;form action=&quot;post&quot;&gt;<br>
+&lt;fieldset&gt;&lt;legend&gt;Text amd Password&lt;/legend&gt;<br>
+&lt;label&gt;Username&lt;/label&gt;&lt;input type=&quot;text&quot;&gt;<br>
+&lt;label&gt;Password&lt;/label&gt;&lt;input type=&quot;password&quot;&gt;<br>
+&lt;/fieldset&gt;<br>
+<br>
+&lt;/form&gt;<br>
+	</p>
 	
 	<h3>working example</h3>
 	<form action="post">
 	<fieldset><legend>Text amd Password</legend>
 		<label>Username</label><input type="text">
 		<label>Password</label><input type="password">
-		
-		
-		
-		
-		</fieldset>
-		
+	</fieldset>
 	
-	
-	</form>
+</form>
 
 <h2>special symbols and character entities:</h2>
 
 <h2>copyright</h2>
 	<h3>description</h3>
-	The HTML copyright symbol is &copy or &#169, these put the symbol onta a web page.
+	The HTML copyright symbol is &copy; or &#169;, these put the symbol onta a web page.
 	<h3>example of code</h3>
 	<p> &amp;copy;<br>
 	</p>
@@ -255,7 +268,7 @@
 
 <h2>trade mark</h2>
 	<h3>description</h3>
-	The trademark symbol in HTML is &trade
+	The trademark symbol in HTML is &trade;
 	<h3>example of code</h3>
 	<p> &amp;trade;	</p>
 	<h3>working example</h3>
@@ -263,7 +276,7 @@
 
 <h2>registered trademark</h2>
 	<h3>description</h3>
-	The registered trademark in HTML is &reg
+	The registered trademark in HTML is &reg;
 	<h3>example of code</h3>
 	<p> &amp;reg;	</p>
 	<h3>working example</h3>
@@ -271,7 +284,7 @@
 
 <h2>ampersand</h2>
 	<h3>description</h3>
-	The ampersand symbol in HTML shows the start of a special character as can be seen from the previous examples but if you want the ampersand to appear in text on a web page you need to use the encoded name &amp
+	The ampersand symbol in HTML shows the start of a special character as can be seen from the previous examples but if you want the ampersand to appear in text on a web page you need to use the encoded name &amp;
 	<h3>example of code</h3>
 	<p> &amp;amp;</p>
 	<h3>working example</h3>
@@ -280,7 +293,7 @@
 	
 <h2>euro</h2>
 	<h3>description</h3>
-	To show the euro symbol in HTML you also use the ampersand &euro
+	To show the euro symbol in HTML you also use the ampersand &euro;
 	<h3>example of code</h3>
 	<p> &amp;euro;</p>
 	<h3>working example</h3>
@@ -288,7 +301,7 @@
 
 <h2>non-breaking space</h2>
 	<h3>description</h3>
-	The symbol for non breaking space in HTML is &nbsp, this ensures a space that will not break into a new line, two words separated by an non breaking space will move together.
+	The symbol for non breaking space in HTML is &nbsp;, this ensures a space that will not break into a new line, two words separated by an non breaking space will move together.
 	<h3>example of code</h3>
 	<p> &amp;nbsp;</p>
 	<h3>working example</h3>
@@ -296,7 +309,7 @@
 
 <h2>less than</h2>
 	<h3>description</h3>
-	The less than symbol in HTML is &lt
+	The less than symbol in HTML is &lt;
 	<h3>example of code</h3>
 	<p> &amp;lt;	</p>
 	<h3>working example</h3>
@@ -304,12 +317,15 @@
 
 <h2>greater than</h2>
 <h3>description</h3>
-	The greater than symbol in HTML is &gt
+	The greater than symbol in HTML is &gt;
 	<h3>example of code</h3>
 	<p> &amp;gt;	</p>
 	<h3>working example</h3>
 	&gt;
-
+	
+<p>
 <a href="css_assignment.html">CSS </a>
+</p>
+	
 </body>
 </html>
