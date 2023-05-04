@@ -1,0 +1,331 @@
+@charset "utf-8";
+		body{
+		background-image: url("images/Limerick_smaller.jpg");
+		background-attachment: fixed;
+		text-color:#121212;
+		}
+
+		#wrapper{
+		background-color:#B4D2D9;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1500px;
+			
+		}
+html{box-sizing:border-box}
+*,*:before, *:after{
+	box-sizing: inherit;
+}
+*{
+	margin:0;
+	padding:0;
+	
+	}
+
+	img{vertical-align:middle;}
+
+
+
+		header{
+		text-align: center;
+		height: 500px;
+		background-image: url("images/Shannon_Boating.png");
+		color: #121212;
+		}
+		
+		nav{
+		background-color:#CCBFB9;
+		height:120px;	
+		padding-top: 25px;
+		font-size: 30px;
+		position:sticky;
+		top: 0px;
+		}
+		
+		main{
+		background-color:#B4D2D9;	
+		padding-left: 140px;
+		padding-right: 20px;
+		float:left;
+		max-width:1500px;
+	
+	
+		}
+		#text{
+		background-color:#B4D2D9;	
+		margin-left: 5px;
+		margin-right: 5px;
+		max-width: 600px;
+		float: left;
+			
+}
+		#text2{
+		background-color:#B4D2D9;	
+		margin-left: 5px;
+		margin-right: 5px;
+		max-width: 670px;
+		float: left;
+			
+}
+
+		#text_cruising{
+		background-color:#B4D2D9;	
+		margin-left: 5px;
+		margin-right: 5px;
+		max-width: 600px;
+		float: left;
+			
+}
+
+		aside {
+		background-color:#B4D2D9;		
+		width: 510px;
+		float: left;
+		}
+
+	
+		footer{
+		height: 150px;
+		text-align: center;
+		background-color: #CCBFB9;
+		padding-top: 10px;
+		clear: both;
+
+		}
+		
+		h1{
+		text-align: center;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		font:bold;
+		font-size: 50px;
+		font-family:"Segoe Script"
+		
+		
+		}
+
+		h2{
+		text-align: center;
+		font-family:"Segoe Script";				
+		font-size: 40px;
+		}
+
+		h3{
+		text-align: center;
+		font-size: 20px;
+		}
+
+		p{
+		padding-left: 90px;
+		padding-right: 95px;
+		font-size: 25px;
+
+		}
+
+
+
+		.times{
+			width:500px;
+		margin-left: auto;
+		margin-right: auto;
+		
+		}
+
+		nav ul{
+		list-style-type: none;
+		margin:0px;
+		padding-right: 10px;
+		overflow:hidden;			
+		}
+
+		li a{
+		display:inline;
+		float:left;
+		padding:10px;
+		
+		}
+
+		nav a:link{
+		text-decoration: none;
+		background-color:#CCBFB9;
+		width:205px;
+		padding-right:10px;
+		padding-left:0px;
+		text-align: center;
+		font-weight: 900;
+		color:#483d8d;
+		}
+
+		a:visited {
+		color: #586F8C;
+		text-decoration: inherit;
+		}
+
+		a:hover{
+		background-color: #483d8d;
+		text-decoration: underline;
+		color:#ffe4c4;
+		}
+
+		a:active{
+		color: #483d8d;
+		text-decoration: underline;
+		}
+		
+		.dropdown {
+		float:left;
+		overflow:hidden
+		}
+
+		.dropdown-content{
+		display:none;
+		position:absolute;
+		background-color: #f9f9f9;
+		min-width: 100px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 2;
+		}
+
+		.dropdown-content a{
+		float:none;
+		color:#483d8d;
+		padding: 12px 16px;
+		text-decoration:none;
+		display:block;
+		text-align:center;
+		}
+
+
+		.dropdown-content a:hover{
+		background-color:#483d8d;
+		color:#ffe4c4;
+		text-decoration: underline;
+		}
+
+		.dropdown:hover .dropdown-content{
+		display:block;
+		}
+
+
+
+		.container{
+		max-width:1500px;
+		background-color:#B4D2D9;
+		margin-left: auto;
+		margin-right: auto;
+		display:block;
+		padding-bottom: 75px;
+		float: left;
+		}
+
+		
+		.card{
+		max-width:500px;
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 40px;	
+		border: 2px solid #b72256;
+		border-radius: 50px;
+		padding-top: 25px;
+		padding-right: 25px;
+		padding-left: 25px;
+		padding-bottom: 5px;
+
+		}
+	
+		.card1{
+		max-width:350px;
+		float:none;
+		margin-top: 70px;
+		margin-left: 20px;
+		margin-bottom: 20px;	
+		border: 2px solid #b72256;
+		border-radius: 50px;
+		padding-top: 50px;
+		padding-right: 25px;
+		padding-left: 45px;
+
+		}
+		.card2{
+		max-width:400px;
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 20px;	
+		border: 2px solid #b72256;
+		border-radius: 30px;
+		padding-top: 25px;
+		padding-right: 25px;
+		padding-left: 25px;
+
+		}
+		.card3{
+		max-width:550px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 100px;
+		border: 2px solid #b72256;
+		border-radius: 20px;
+		padding-top: 50px;
+		padding-right: 50px;
+		padding-left: 15px;
+		padding-bottom: 20px;
+
+		}
+
+		.row{
+		float: right;
+		}
+
+		.row1{
+		float:left;
+}
+
+		.row2{
+		float:none;
+}
+
+.slideshow-container{
+	padding-top: 20px;
+	max-width: 1000px;
+	position:relative;
+	margin:auto;
+	
+}
+.mySlides{
+	display:none;
+	
+	
+}
+
+.prev, .next{
+	cursor:pointer;
+	position: absolute;
+	top:50%;
+	width:auto;
+	margin-top: -22px;
+	padding:16px;
+	color:white;
+	font-weight:bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	bordre-radius: 0 3px 3px 0;
+	user-select:none;
+}
+
+.next{
+	right:0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover,  .next:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+.fade{
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@keyframes fade {
+	from {opacity:.4}
+	to {opacity:1}
+
+}
+
